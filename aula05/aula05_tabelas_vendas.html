@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela com Colspan e Rowspan</title>
+</head>
+
+<body>
+
+  <h2>Resultados de Vendas</h2>
+
+  <table border="1" style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Região</th>
+        <th colspan="2">Vendas</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Produto A</th>
+        <th>Produto B</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Norte</td>
+        <td>100</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <td>120</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Sul</td>
+        <td>200</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>220</td>
+        <td>280</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
